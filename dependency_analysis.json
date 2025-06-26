@@ -1,0 +1,54 @@
+[
+  {
+    "sentence_num": 1,
+    "analysis": {
+      "sentence": "MIG/MAG焊机采用恒压特性电源，其送丝速度直接影响熔敷率，而焊接电流通常控制在150-350安培之间",
+      "tokens": ["MIG", "/", "MAG", "焊机", "采用", "恒压特性", "电源", "，", "其", "送丝速度", "直接影响", "熔敷率", "，", "而", "焊接电流", "通常", "控制", "在", "150-350安培", "之间"],
+      "pos_tags": ["NR", "PU", "NR", "NN", "VV", "NN", "NN", "PU", "PN", "NN", "VV", "NN", "PU", "CC", "NN", "AD", "VV", "P", "CD", "LC"],
+      "dependencies": [[3, "dep"], [3, "punct"], [4, "nmod:assmod"], [5, "nsubj"], [0, "root"], [7, "compound:nn"], [5, "dobj"], [5, "punct"], [10, "compound:nn"], [11, "nsubj"], [5, "conj"], [11, "dobj"], [5, "punct"], [5, "cc"], [17, "nsubj"], [17, "advmod"], [5, "conj"], [19, "case"], [17, "nmod:prep"], [17, "nmod:prep"]],
+      "root_idx": 4,
+      "root_info": "Root节点: 采用 (索引4)",
+      "debug_info": ["索引0: MIG (NR) -> 头节点3, 关系dep", "索引1: / (PU) -> 头节点3, 关系punct", "索引2: MAG (NR) -> 头节点4, 关系nmod:assmod", "索引3: 焊机 (NN) -> 头节点5, 关系nsubj", "索引4: 采用 (VV) -> 头节点0, 关系root", "索引5: 恒压特性 (NN) -> 头节点7, 关系compound:nn", "索引6: 电源 (NN) -> 头节点5, 关系dobj", "索引7: ， (PU) -> 头节点5, 关系punct", "索引8: 其 (PN) -> 头节点10, 关系compound:nn", "索引9: 送丝速度 (NN) -> 头节点11, 关系nsubj", "索引10: 直接影响 (VV) -> 头节点5, 关系conj", "索引11: 熔敷率 (NN) -> 头节点11, 关系dobj", "索引12: ， (PU) -> 头节点5, 关系punct", "索引13: 而 (CC) -> 头节点5, 关系cc", "索引14: 焊接电流 (NN) -> 头节点17, 关系nsubj", "索引15: 通常 (AD) -> 头节点17, 关系advmod", "索引16: 控制 (VV) -> 头节点5, 关系conj", "索引17: 在 (P) -> 头节点19, 关系case", "索引18: 150-350安培 (CD) -> 头节点17, 关系nmod:prep", "索引19: 之间 (LC) -> 头节点17, 关系nmod:prep"],
+      "word_count": 20
+    }
+  },
+  {
+    "sentence_num": 2,
+    "analysis": {
+      "sentence": "气保焊是一种利用保护气体保护焊接区域的弧焊方法",
+      "tokens": ["气保焊", "是", "一种", "利用", "保护气体", "保护", "焊接", "区域", "的", "弧焊", "方法"],
+      "pos_tags": ["NN", "VC", "CD", "VV", "NN", "VV", "NN", "NN", "DEC", "NN", "NN"],
+      "dependencies": [[11, "nsubj"], [11, "cop"], [11, "dep"], [11, "acl"], [4, "dobj"], [4, "conj"], [8, "compound:nn"], [6, "dobj"], [4, "mark"], [11, "compound:nn"], [0, "root"]],
+      "root_idx": 10,
+      "root_info": "Root节点: 方法 (索引10)",
+      "debug_info": ["索引0: 气保焊 (NN) -> 头节点11, 关系nsubj", "索引1: 是 (VC) -> 头节点11, 关系cop", "索引2: 一种 (CD) -> 头节点11, 关系dep", "索引3: 利用 (VV) -> 头节点11, 关系acl", "索引4: 保护气体 (NN) -> 头节点4, 关系dobj", "索引5: 保护 (VV) -> 头节点4, 关系conj", "索引6: 焊接 (NN) -> 头节点8, 关系compound:nn", "索引7: 区域 (NN) -> 头节点6, 关系dobj", "索引8: 的 (DEC) -> 头节点4, 关系mark", "索引9: 弧焊 (NN) -> 头节点11, 关系compound:nn", "索引10: 方法 (NN) -> 头节点0, 关系root"],
+      "word_count": 11
+    }
+  },
+  {
+    "sentence_num": 3,
+    "analysis": {
+      "sentence": "ER70S-6焊丝适用于碳钢焊接，H08Mn2Si焊丝具有良好的机械性能",
+      "tokens": ["ER70S-6", "焊丝", "适用于", "碳钢", "焊接", "，", "H08Mn2Si", "焊丝", "具有", "良好", "的", "机械性能"],
+      "pos_tags": ["CD", "NN", "VV", "NN", "NN", "PU", "NR", "NN", "VV", "VA", "DEC", "NN"],
+      "dependencies": [[2, "dep"], [3, "nsubj"], [0, "root"], [5, "compound:nn"], [3, "dobj"], [3, "punct"], [8, "dep"], [9, "nsubj"], [3, "conj"], [12, "amod"], [10, "mark"], [9, "dobj"]],
+      "root_idx": 2,
+      "root_info": "Root节点: 适用于 (索引2)",
+      "debug_info": ["索引0: ER70S-6 (CD) -> 头节点2, 关系dep", "索引1: 焊丝 (NN) -> 头节点3, 关系nsubj", "索引2: 适用于 (VV) -> 头节点0, 关系root", "索引3: 碳钢 (NN) -> 头节点5, 关系compound:nn", "索引4: 焊接 (NN) -> 头节点3, 关系dobj", "索引5: ， (PU) -> 头节点3, 关系punct", "索引6: H08Mn2Si (NR) -> 头节点8, 关系dep", "索引7: 焊丝 (NN) -> 头节点9, 关系nsubj", "索引8: 具有 (VV) -> 头节点3, 关系conj", "索引9: 良好 (VA) -> 头节点12, 关系amod", "索引10: 的 (DEC) -> 头节点10, 关系mark", "索引11: 机械性能 (NN) -> 头节点9, 关系dobj"],
+      "word_count": 12
+    }
+  },
+  {
+    "sentence_num": 4,
+    "analysis": {
+      "sentence": "CO2气保焊机是最常用的设备，它可以提供稳定的焊接电流",
+      "tokens": ["CO2", "气保焊机", "是", "最", "常用", "的", "设备", "，", "它", "可以", "提供", "稳定", "的", "焊接电流"],
+      "pos_tags": ["NN", "NN", "VC", "AD", "VA", "DEC", "NN", "PU", "PN", "VV", "VV", "VA", "DEC", "NN"],
+      "dependencies": [[2, "compound:nn"], [7, "nsubj"], [7, "cop"], [5, "advmod"], [7, "amod"], [5, "mark"], [0, "root"], [7, "punct"], [11, "nsubj"], [11, "aux:modal"], [7, "conj"], [14, "amod"], [12, "mark"], [11, "dobj"]],
+      "root_idx": 6,
+      "root_info": "Root节点: 设备 (索引6)",
+      "debug_info": ["索引0: CO2 (NN) -> 头节点2, 关系compound:nn", "索引1: 气保焊机 (NN) -> 头节点7, 关系nsubj", "索引2: 是 (VC) -> 头节点7, 关系cop", "索引3: 最 (AD) -> 头节点5, 关系advmod", "索引4: 常用 (VA) -> 头节点7, 关系amod", "索引5: 的 (DEC) -> 头节点5, 关系mark", "索引6: 设备 (NN) -> 头节点0, 关系root", "索引7: ， (PU) -> 头节点7, 关系punct", "索引8: 它 (PN) -> 头节点11, 关系nsubj", "索引9: 可以 (VV) -> 头节点11, 关系aux:modal", "索引10: 提供 (VV) -> 头节点7, 关系conj", "索引11: 稳定 (VA) -> 头节点14, 关系amod", "索引12: 的 (DEC) -> 头节点12, 关系mark", "索引13: 焊接电流 (NN) -> 头节点11, 关系dobj"],
+      "word_count": 14
+    }
+  }
+]
