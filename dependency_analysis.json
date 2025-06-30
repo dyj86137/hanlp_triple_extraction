@@ -2,18 +2,31 @@
   {
     "sentence_num": 1,
     "analysis": {
-      "sentence": "MIG/MAG焊机采用恒压特性电源，其送丝速度直接影响熔敷率，而焊接电流通常控制在150-350安培之间",
-      "tokens": ["MIG", "/", "MAG", "焊机", "采用", "恒压特性", "电源", "，", "其", "送丝速度", "直接影响", "熔敷率", "，", "而", "焊接电流", "通常", "控制", "在", "150-350安培", "之间"],
-      "pos_tags": ["NR", "PU", "NR", "NN", "VV", "NN", "NN", "PU", "PN", "NN", "VV", "NN", "PU", "CC", "NN", "AD", "VV", "P", "CD", "LC"],
-      "dependencies": [[3, "dep"], [3, "punct"], [4, "nmod:assmod"], [5, "nsubj"], [0, "root"], [7, "compound:nn"], [5, "dobj"], [5, "punct"], [10, "compound:nn"], [11, "nsubj"], [5, "conj"], [11, "dobj"], [5, "punct"], [5, "cc"], [17, "nsubj"], [17, "advmod"], [5, "conj"], [19, "case"], [17, "nmod:prep"], [17, "nmod:prep"]],
-      "root_idx": 4,
-      "root_info": "Root节点: 采用 (索引4)",
-      "debug_info": ["索引0: MIG (NR) -> 头节点3, 关系dep", "索引1: / (PU) -> 头节点3, 关系punct", "索引2: MAG (NR) -> 头节点4, 关系nmod:assmod", "索引3: 焊机 (NN) -> 头节点5, 关系nsubj", "索引4: 采用 (VV) -> 头节点0, 关系root", "索引5: 恒压特性 (NN) -> 头节点7, 关系compound:nn", "索引6: 电源 (NN) -> 头节点5, 关系dobj", "索引7: ， (PU) -> 头节点5, 关系punct", "索引8: 其 (PN) -> 头节点10, 关系compound:nn", "索引9: 送丝速度 (NN) -> 头节点11, 关系nsubj", "索引10: 直接影响 (VV) -> 头节点5, 关系conj", "索引11: 熔敷率 (NN) -> 头节点11, 关系dobj", "索引12: ， (PU) -> 头节点5, 关系punct", "索引13: 而 (CC) -> 头节点5, 关系cc", "索引14: 焊接电流 (NN) -> 头节点17, 关系nsubj", "索引15: 通常 (AD) -> 头节点17, 关系advmod", "索引16: 控制 (VV) -> 头节点5, 关系conj", "索引17: 在 (P) -> 头节点19, 关系case", "索引18: 150-350安培 (CD) -> 头节点17, 关系nmod:prep", "索引19: 之间 (LC) -> 头节点17, 关系nmod:prep"],
-      "word_count": 20
+      "sentence": "对于ER55-D2型号焊丝，直径1.2mm焊丝的焊接电流为260A~320A，直径1.6mm焊丝的焊接电流为330A~410A",
+      "tokens": ["对于", "ER55-D2", "型号", "焊丝", "，", "直径", "1.2mm", "焊丝", "的", "焊接电流", "为", "260A", "~", "320A", "，", "直径", "1.6mm", "焊丝", "的", "焊接电流", "为", "330A", "~", "410A"],
+      "pos_tags": ["P", "NN", "NN", "NN", "PU", "NN", "CD", "NN", "DEG", "NN", "VC", "CD", "PU", "CD", "PU", "NN", "CD", "NN", "DEG", "NN", "VC", "CD", "PU", "CD"],
+      "dependencies": [[4, "case"], [3, "nmod:assmod"], [4, "compound:nn"], [11, "nmod:prep"], [11, "punct"], [7, "nsubj"], [8, "dep"], [10, "nmod:assmod"], [8, "case"], [11, "nsubj"], [0, "root"], [14, "dep"], [14, "punct"], [11, "dep"], [11, "punct"], [17, "nsubj"], [18, "dep"], [20, "nmod:assmod"], [18, "case"], [21, "nsubj"], [11, "conj"], [24, "dep"], [24, "punct"], [21, "dep"]],
+      "root_idx": 10,
+      "root_info": "Root节点: 为 (索引10)",
+      "debug_info": ["索引0: 对于 (P) -> 头节点4, 关系case", "索引1: ER55-D2 (NN) -> 头节点3, 关系nmod:assmod", "索引2: 型号 (NN) -> 头节点4, 关系compound:nn", "索引3: 焊丝 (NN) -> 头节点11, 关系nmod:prep", "索引4: ， (PU) -> 头节点11, 关系punct", "索引5: 直径 (NN) -> 头节点7, 关系nsubj", "索引6: 1.2mm (CD) -> 头节点8, 关系dep", "索引7: 焊丝 (NN) -> 头节点10, 关系nmod:assmod", "索引8: 的 (DEG) -> 头节点8, 关系case", "索引9: 焊接电流 (NN) -> 头节点11, 关系nsubj", "索引10: 为 (VC) -> 头节点0, 关系root", "索引11: 260A (CD) -> 头节点14, 关系dep", "索引12: ~ (PU) -> 头节点14, 关系punct", "索引13: 320A (CD) -> 头节点11, 关系dep", "索引14: ， (PU) -> 头节点11, 关系punct", "索引15: 直径 (NN) -> 头节点17, 关系nsubj", "索引16: 1.6mm (CD) -> 头节点18, 关系dep", "索引17: 焊丝 (NN) -> 头节点20, 关系nmod:assmod", "索引18: 的 (DEG) -> 头节点18, 关系case", "索引19: 焊接电流 (NN) -> 头节点21, 关系nsubj", "索引20: 为 (VC) -> 头节点11, 关系conj", "索引21: 330A (CD) -> 头节点24, 关系dep", "索引22: ~ (PU) -> 头节点24, 关系punct", "索引23: 410A (CD) -> 头节点21, 关系dep"],
+      "word_count": 24
     }
   },
   {
     "sentence_num": 2,
+    "analysis": {
+      "sentence": "MIG/MAG焊机采用恒压特性电源，其送丝速度直接影响熔敷率，而焊接电流通常控制在150A-350A之间",
+      "tokens": ["MIG", "/", "MAG", "焊机", "采用", "恒压特性", "电源", "，", "其", "送丝速度", "直接影响", "熔敷率", "，", "而", "焊接电流", "通常", "控制", "在", "150A", "-350A", "之间"],
+      "pos_tags": ["NR", "PU", "NR", "NN", "VV", "NN", "NN", "PU", "PN", "NN", "VV", "NN", "PU", "CC", "NN", "AD", "VV", "P", "CD", "CD", "LC"],
+      "dependencies": [[3, "dep"], [3, "punct"], [4, "nmod:assmod"], [5, "nsubj"], [0, "root"], [7, "compound:nn"], [5, "dobj"], [5, "punct"], [10, "compound:nn"], [11, "nsubj"], [5, "conj"], [11, "dobj"], [5, "punct"], [17, "advmod"], [17, "nsubj"], [17, "advmod"], [5, "conj"], [20, "case"], [20, "dep"], [17, "nmod:prep"], [20, "case"]],
+      "root_idx": 4,
+      "root_info": "Root节点: 采用 (索引4)",
+      "debug_info": ["索引0: MIG (NR) -> 头节点3, 关系dep", "索引1: / (PU) -> 头节点3, 关系punct", "索引2: MAG (NR) -> 头节点4, 关系nmod:assmod", "索引3: 焊机 (NN) -> 头节点5, 关系nsubj", "索引4: 采用 (VV) -> 头节点0, 关系root", "索引5: 恒压特性 (NN) -> 头节点7, 关系compound:nn", "索引6: 电源 (NN) -> 头节点5, 关系dobj", "索引7: ， (PU) -> 头节点5, 关系punct", "索引8: 其 (PN) -> 头节点10, 关系compound:nn", "索引9: 送丝速度 (NN) -> 头节点11, 关系nsubj", "索引10: 直接影响 (VV) -> 头节点5, 关系conj", "索引11: 熔敷率 (NN) -> 头节点11, 关系dobj", "索引12: ， (PU) -> 头节点5, 关系punct", "索引13: 而 (CC) -> 头节点17, 关系advmod", "索引14: 焊接电流 (NN) -> 头节点17, 关系nsubj", "索引15: 通常 (AD) -> 头节点17, 关系advmod", "索引16: 控制 (VV) -> 头节点5, 关系conj", "索引17: 在 (P) -> 头节点20, 关系case", "索引18: 150A (CD) -> 头节点20, 关系dep", "索引19: -350A (CD) -> 头节点17, 关系nmod:prep", "索引20: 之间 (LC) -> 头节点20, 关系case"],
+      "word_count": 21
+    }
+  },
+  {
+    "sentence_num": 3,
     "analysis": {
       "sentence": "气保焊是一种利用保护气体保护焊接区域的弧焊方法",
       "tokens": ["气保焊", "是", "一种", "利用", "保护气体", "保护", "焊接", "区域", "的", "弧焊", "方法"],
@@ -26,7 +39,7 @@
     }
   },
   {
-    "sentence_num": 3,
+    "sentence_num": 4,
     "analysis": {
       "sentence": "ER70S-6焊丝适用于碳钢焊接，H08Mn2Si焊丝具有良好的机械性能",
       "tokens": ["ER70S-6", "焊丝", "适用于", "碳钢", "焊接", "，", "H08Mn2Si", "焊丝", "具有", "良好", "的", "机械性能"],
@@ -39,7 +52,7 @@
     }
   },
   {
-    "sentence_num": 4,
+    "sentence_num": 5,
     "analysis": {
       "sentence": "CO2气保焊机是最常用的设备，它可以提供稳定的焊接电流",
       "tokens": ["CO2", "气保焊机", "是", "最", "常用", "的", "设备", "，", "它", "可以", "提供", "稳定", "的", "焊接电流"],
